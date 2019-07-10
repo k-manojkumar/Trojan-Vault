@@ -1,0 +1,123 @@
+@media screen and (min-width:970px) {
+  .navmenu{
+    display:none;
+  }
+}
+@media screen and (min-width:0px) and (max-width:969px) {
+  .navbar-toggle{
+    width: 50px;
+    border: none;
+  }
+  button.navbar-toggle{
+    width: 40px;
+    border: 1px solid;
+  }
+  .navbar-default .navbar-collapse{
+    border: none;
+  }
+  .navbar-toggle{
+    display:block;
+  }
+  .navbar-collapse{
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rbga(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse{
+    display: none!important;
+  }
+  .navbar-collapse.collapse.in{
+    display: block!important;
+  }
+  .navbar-nav{
+    float:none!important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li{
+    float:none;
+  }
+  .navbar-toggle{
+    float:none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: none;
+  }
+  .toggleMenu{
+    position: absolute;
+    z-index: 1;
+  }
+  .navbar-collapse{
+    padding: 0px 0px;
+  }
+  .navbar-default{
+    border-color: #ffffff;
+  }
+  .hide-navbar{
+    display: none;
+  }
+}
+.btn.btn-default.navbar-content{
+  border-radius: 0px;
+  padding: 10px 20px;
+}
+.navbar-subtitle{
+  font-size:16px;
+}
+.navbar-splitup{
+  margin-bottom:10px;
+  background-color:#f2f2f2;
+}
+.panel.navmenu{
+  background-color:white;
+  border:none;
+}
+nav.navbar.navbar-content.navbarsss{
+  margin-bottom: 0px;
+  min-height: 0px;
+  border-radius: 0px;
+}
+nav > ul.nav.navbar{
+  margin-bottom: 0px;
+  min-height: 0px;
+  border-radius: 0px;
+}
+.nav > li > a.dropdown-toggle{
+  padding: 6px 5px;
+}
+nav .navbar.navbar-content{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.dropdown-menu > li > a{
+  padding: 0px 0px;
+}
+ul.nav.navbar > li >ul.dropdown-menu{
+  border-radius: 0px;
+  border: 0px;
+  background: none;
+  margin: 10px 0px 0px;
+}
+.btn.navbar-content{
+  text-align: left;
+}
+.control-events{
+  pointer-events: none;
+}
+ul.dropdown-menu{
+  min-width: 170px;
+}
+.btn.btn-default.btn-container-default.btn-custom-right-margin{
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-color: #aaa;
+  font-size:16px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.tabClass ul > li > a {
+  background-color: #006a4d;
+  color: white;
+}

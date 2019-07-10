@@ -1,0 +1,327 @@
+.backgroundColor{
+  background-color:#05286a;
+}
+.brandIcon{
+    background-image: url('../../images/bos/logo.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 4.8em;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.headerLogo{
+    display: none;
+}
+.headerColor{
+    color: white;
+    text-align:right;
+    margin-top:8px;
+    font-family:serif;
+}
+.horizontalLineStyle{
+    background-color:#03183f;
+    height:10px;
+}
+.headerText{
+    margin-left:-40px;
+    margin-top:6px;
+    text-align:right;
+    color:white;
+}
+.headerTextLeft{
+    margin-left:6px;
+    margin-top:6px;
+    text-align:left;
+    color:white;
+}
+.headerTextRight{
+    margin-left:-20px;
+    margin-top:6px;
+    text-align:right;
+    color:white;
+}
+.header{
+    background-color:#03183f;
+    height:30px;
+}
+.horizontalLineStyleBottom{
+    padding-bottom:0px;
+    margin-top:10px;
+}
+.footer{
+    color:#002776;
+}
+.connecting-line{
+  background:#03183f;
+}
+span.round-tab{
+  border:2px solid #03183f;
+  color:#03183f;
+}
+.wizardInfo,span.round-tab i,.round-tab.glyphicon{
+  color:#03183f;
+}
+span.round-tab:hover,.row.hide-navbar{
+  background-color: #03183f;
+}
+li.active span.round-tab{
+  background: #03183f;
+}
+li.active span.glyphicon{
+    color: #fff;
+}
+ul.nav.navbar > li.dropdown > a:hover.dropdown-toggle > span.menu.glyphicon.glyphicon-list{
+  color: #ffffff;
+}
+ul.nav.navbar > li.dropdown > a:hover.dropdown-toggle{
+  background-color: #05286a;
+}
+li.active span.varaiableactive{
+    color: #fff;
+}
+.btn.btn-default.navbar-content{
+  background-color:#05286a;
+  color:white;
+}
+div.bodyColor{
+  background-color:white;
+}
+body{
+  background-color: #f2f2f2;
+}
+.nav > li > a:hover{
+  background-color: #05286a;
+}
+.nav > li > a:hover span.menu.glyphicon{
+    color: #ffffff;
+}
+.nav > li > a{
+  background-color: #ffffff;
+}
+.nav > li > a span.menu.glyphicon{
+    color: #05286a;
+}
+.navbar{
+  background-color: #05286a;
+}
+.menubar{
+  background: #05286a;
+}
+.glyphicon{
+  top:0px;
+}
+.btn.btn-default.btn-container-default{
+  background-color:#05286a;
+  color:white;
+}
+.btn.btn-default.custom-btn{
+    background-color:#05286a;
+    color:white;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+.btn.btn-default.btn-container-default.btn-custom-right-margin{
+  background-color:#03183f;
+}
+a.btn.btn-default:hover.btn-container-default.btn-custom-right-margin,
+  a.btn.btn-default:active.btn-container-default.btn-custom-right-margin,
+    a.btn.btn-default:focus.btn-container-default.btn-custom-right-margin{
+  background-color: #05286a;
+  color: white;
+  border-color: white;
+}
+.custom-table-body-onselect{
+  border-radius: 0px;
+  color: #03183f;
+  font-weight: bolder;
+}
+.custom-react-table-header{
+  background-color: #05286a;
+  border: 0px;
+  font-size: 14px;
+  color:white;
+}
+.react-bs-table table td{
+  white-space: normal;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th{
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.pagination > .active > a,
+ .pagination > .active > span,
+  .pagination > .active > a:hover,
+   .pagination > .active > span:hover,
+    .pagination > .active > a:focus,
+     .pagination > .active > span:focus{
+       color: white;
+       background-color: #05286a;
+       border-color: #05286a;
+     }
+.pagination > li:first-child > a, .pagination > li:first-child > span{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #05286a;
+  background-color: white;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.dropdown.react-bs-table-sizePerPage-dropdown > button.btn-default{
+  color: #05286a;
+  border-color: #05286a;
+  border-radius: 0px;
+}
+.form-group-sm .form-control{
+    border-radius: 0px;
+}
+.custom-side-panel{
+  padding-left: 0px;
+  margin-top: 108px;
+  margin-right: 10px;
+  border-radius: 0px;
+  border: 1px solid #03183f;
+  box-shadow: 0 12px 5px -5px #888, -9px 0 5px -5px #888;
+}
+.custom-side-panel-default{
+  padding: 29px;
+  border-radius: 0px;
+  text-align: center;
+  opacity: 0.5;
+}
+.swal-custom-btn{
+  background-color: #03183f;
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 25px 8px 25px;
+  border: 0px;
+}
+.swal-custom-btn:active,.swal-custom-btn:focus{
+  background-color: #05286a;
+  color: #ffffff;
+  border: 0px;
+}
+.react-bs-table.react-bs-table-bordered{
+  border: 1px solid #03183f;
+  border-radius: 0px;
+  box-shadow: 0 12px 5px -5px #888, -9px 0 5px -5px #888;
+}
+.form-group.form-group-sm.react-bs-table-search-form{
+  border: 1px solid #03183f;
+  border-radius: 0px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, .075), 0 0 5px #05286a;
+}
+.panel-heading.custom-panel-heading > a:hover, .panel-heading.custom-panel-heading > a:focus{
+  background-color: #03183f;
+}
+.btn.btn-default.custom-btn:hover, .btn.btn-default.custom-btn:focus{
+  background-color: #03183f;
+}
+.react-datepicker__month-container{
+  width: 250px;
+  height: 250px;
+  font-size: 12px;
+}
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name{
+  margin: 7px;
+}
+.react-datepicker__header{
+  z-index: 99999;
+}
+.custom-form-control.form-control{
+    z-index: 0;
+}
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus,
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus{
+  border-radius: 0px;
+}
+.btn.toggle-on.btn-md.custom-toggle.btn-primary, .btn.toggle.btn-md.btn-primary, .btn.toggle-off.btn-md.custom-toggle.btn-default,
+.btn.toggle.btn-md.btn-default{
+  border-radius: 0px;
+}
+.toggle-handle.btn.btn-md.btn-default{
+  border-radius: 0px;
+  background-color: white;
+  text-align: center;
+  border-color: #03183f;
+}
+.btn.toggle.pull-left.btn-md.btn-primary, .btn.toggle.pull-left.btn-md.off.btn-default{
+  margin-right: 10px;
+}
+.custom-row-align{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.btn.toggle.pull-left.btn-md.btn-primary,
+.btn.toggle-on.btn-md.custom-toggle-on.btn-primary{
+  background-color: #05286a;
+  border-radius: 0px;
+  border-color: #03183f;
+  color: white;
+}
+.btn.toggle.pull-left.btn-md.off.btn-default,
+.btn.toggle-off.btn-md.custom-toggle-off.btn-default{
+  background-color: #eb9114;
+  border-radius: 0px;
+  border-color: #03183f;
+  color: white;
+}
+.react-datepicker__year-read-view--down-arrow{
+  margin-left: 50px;
+}
+.react-datepicker__month-read-view--down-arrow{
+  margin-left: 60px;
+}
+.custom-file-btn{
+  background-color: transparent;
+  border: 0px;
+}
+.custom-file-btn:active, .custom-file-btn:focus, .custom-file-btn:hover{
+  background-color: transparent;
+  border: 0px;
+  border-color: white;
+}
+.glyphicon.glyphicon-file.custom-file-glyphicon{
+  color: #03183f;
+}
+.switch-light.switch-candy input ~ span span:first-child,
+  .switch-light.switch-candy input:checked ~ span span:nth-child(2),
+    .switch-candy input:checked + label{
+      color: white;
+      background-color: #03183f;
+      font-weight: normal;
+}
+.switch-light.switch-candy span span,
+  .switch-light.switch-candy input:checked ~ span span:first-child,
+    .switch-toggle.switch-candy label{
+    color:#03183f;
+    background-color: #ccc;
+    font-weight: normal;
+}
+.switch-toggle.switch-candy, .switch-light.switch-candy > span{
+  border-radius: 0px;
+}
+.custom-header{
+  text-align: right;
+  margin-top: 20px;
+  color: #03183f;
+  font-size:14px;
+}
